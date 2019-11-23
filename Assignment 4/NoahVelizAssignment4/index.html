@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<title>Portfolio Site</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+            <h1><a href="index.html" id="logo">Logo</a></h1>
+            <button id="mb">mobile menu</button>
+            <nav>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+	<div id="hero">
+		<div class="overlay">
+            <h1>Noah's Sketchbook</h1><div></div>
+			<p><a href="contact.html" class="btn">Contact Me</a></p>
+		</div>
+	</div>
+	<div id="port">
+		<h1>Featured Portfolio</h1>
+        <br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="container">
+			<div class="col c3">
+				<img src="assets/img/img1.jpg">
+				<h4>Project 1</h4>
+			</div>
+			<div class="col c3">
+				<img src="assets/img/img2.jpg">
+				<h4>Project 2</h4>
+			</div>
+			<div class="col c3">
+				<img src="assets/img/img3.jpg">
+				<h4>Project 3</h4>
+			</div>
+		</div>
+	</div>
+	<div id="cta">
+		<div class="overlay">
+			<h1>Contact Me Today</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><a href="contact.html" class="btn">Contact Me</a></p>
+		</div>
+	</div>
+	
+	
+	<footer>
+		<p>&copy; 2019. All rights reserved. </p>
+	</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script> 
+         $('#mb').click(function(){
+    $('nav').slideToggle();
+    ));
+             $(window).resize(function(){
+                 if(window.innerWidth>499)
+    </script>
+</body>
+</html>
